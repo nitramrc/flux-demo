@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: docker-nodejs-demo
-        image: registry.kubernetes2.overbinary.org/docker-nodejs-demo:1.0.1
+        image: registry.kubernetes2.overbinary.org/docker-nodejs-demo:1.0.2
         ports:
         - name: nodejs-port
           containerPort: 3000
